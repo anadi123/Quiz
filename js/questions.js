@@ -275,6 +275,128 @@ let questions = [
       "Emil Erlenmeyer  "
     ]
   },
+  {
+    numb: 26,
+    question: " Which programming language is developed by James A Gosling?",
+    answer: "Java",
+    options: [
+      "ASP.Net ",
+      "Java",
+      "PHP ",
+      "C#"
+    ]
+  },
+  {
+    numb: 27,
+    question: "WWhich among the following is a recently debated principle that Internet service providers and governments regulating the Internet should treat all data on the Internet the same,not discriminating or charging differentially by user, content,website, platform, application, type of attached equipment,or mode of communication?",
+    answer: "Net Neutrality",
+    options: [
+      "Comcast ",
+      "Net Neutrality",
+      "Oblique-net  ",
+      "Net Fraternity "
+    ]
+  },
+  {
+    numb: 28,
+    question: "The first programming language was",
+    answer: "FORTRAN",
+    options: [
+      "Perl",
+      "Visual Basic",
+      "FORTRAN ",
+      "C "
+    ]
+  },
+  {
+    numb: 29,
+    question: "The Network is overloaded with enormous data sent by many computers within the network. The inability of the network to deliver the data is termed as",
+    answer: "Congestion",
+    options: [
+      "Access control ",
+      "Congestion",
+      "Error propagation",
+      "Deadlock"
+    ]
+  },
+  {
+    numb: 30,
+    question: "Which statement about ultrabook computers is false?",
+    answer: "Ultrabooks have the fastest optical drives",
+    options: [
+      "Ultrabooks typically weigh less than 3 pounds",
+      "Ultrabooks have the fastest optical drives",
+      "Ultrabooks do not offer HDMI video output ports ",
+      "Utrabooks are equipped with SSD drives for fast start-up"
+    ]
+  },
+  {
+    numb: 31,
+    question: "Which of the following are the core mathematical operations which are used in an electric analog computer?",
+    answer: "All of the above",
+    options: [
+      "Integration",
+      "Exponentiation",
+      "Inversion",
+      "All of the above"
+    ]
+  },
+  {
+    numb: 32,
+    question: "Which of the following clearly define the Trackball ?",
+    answer: "It is a two-dimensional positioning device.",
+    options: [
+      "It is a two-dimensional positioning device.",
+      "It is a three- dimensional positioning device.",
+      "It is a pointing device",
+      "None of the Above"
+    ]
+  },
+  {
+    numb: 33,
+    question: "What is the name given to the device invented by Dr. Bobeck in 1966 for mass storage of data ?",
+    answer: "Magnetic Bubble Storage",
+    options: [
+      "Punched Paper Tape",
+      "Magnetic Bubble Storage",
+      "Magnetic Tape",
+      " Magnetic Disk"
+    ]
+  },
+  {
+    numb: 34,
+    question: "Which of the following programs remains in the memory while other programs are executing?",
+    answer: "Resident Program",
+    options: [
+      "Non Resident Program",
+      "Resident Program",
+      "Permanent Program",
+      "None of the Above"
+    ]
+  },
+  {
+    numb: 35,
+    question: "Which of the following is one among the time-sharing programming languages?",
+    answer: "JOSS",
+    options: [
+      "JOSS",
+      "COBOL",
+      "HTML",
+      "BASIC"
+    ]
+  },
+  {
+    numb: 36,
+    question: "What is the name given to the library of related functions that are not loaded into memory until they are called by the application program?",
+    answer: "DLL",
+    options: [
+      "DML",
+      "DLL",
+      "DCL",
+      "ALL OF THE ABOVE"
+    ]
+  },
+
   
 
   // you can uncomment the below codes and make duplicate as more as you want to add question
