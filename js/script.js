@@ -25,7 +25,6 @@ let que_numb = getRandomInt(questions.length);
 let userScore = 0;
 let counter;
 let counterLine;
-let widthValue = 0;
 let total_ques = 5; // total 5 questions will be shown
 
 // if continueQuiz button clicked
@@ -35,7 +34,6 @@ continue_btn.onclick = () => {
   showQuestion(); //calling showQestions function
   queCounter(que_count); //passing 1 parameter to queCounter
   startTimer(15); //calling startTimer function
-  startTimerLine(0); //calling startTimerLine function
 };
 
 const restart_quiz = result_box.querySelector(".buttons .restart");
@@ -52,13 +50,11 @@ restart_quiz.onclick = () => {
   que_count = 1;
   timeValue = 15;
   que_numb = getRandomInt(questions.length);
-  widthValue = 0;
   showQuestion(); //calling showQestions function
   queCounter(que_count); //passing que_numb value to queCounter
   clearInterval(counter); //clear counter
   clearInterval(counterLine); //clear counterLine
   startTimer(timeValue); //calling startTimer function
-  startTimerLine(widthValue); //calling startTimerLine function
   timeText.textContent = "Time Left"; //change the text of timeText to Time Left
   next_btn.classList.remove("show"); //hide the next button
 };
@@ -83,7 +79,6 @@ next_btn.onclick = () => {
     clearInterval(counter); //clear counter
     clearInterval(counterLine); //clear counterLine
     startTimer(timeValue); //calling startTimer function
-    startTimerLine(widthValue); //calling startTimerLine function
     timeText.textContent = "Time Left"; //change the timeText to Time Left
     next_btn.classList.remove("show"); //hide the next button
   } else {
@@ -96,8 +91,6 @@ next_btn.onclick = () => {
 // getting questions and options from array
 function showQuestion() {
   const que_text = document.querySelector(".que_text");
-  //const que_text = questions[Math.floor(Math.random()*questions.length)]
-
   //creating a new span and div tag for question and option and passing the value using array que_numb
   let que_tag =
     "<span>" + que_count + ". " + questions[que_numb].question + "</span>";
@@ -230,6 +223,7 @@ function startTimer(time) {
       next_btn.classList.add("show"); //show the next button if user selected any option
     }
   }
+  startTimerLine(0); //calling startTimerLine function
 }
 
 function startTimerLine(time) {
