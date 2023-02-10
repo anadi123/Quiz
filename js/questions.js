@@ -396,6 +396,51 @@ let questions = [
       "ALL OF THE ABOVE"
     ]
   },
+  {
+  numb: 37,
+    question: "Which of the following represents Latency?",
+    answer:"propagation time +transmission time +queuing time + processing delay",
+    options: [ 
+    "propagation time +transmission time +queuing time + processing delay",
+    "propagation time – transmission time +queuing time + processing delay",
+    "propagation time +transmission time +queuing time – processing delay",
+    "(propagation time +transmission time) – (queuing time + processing delay)"
+    ]
+  },
+  {
+    numb: 38,
+      question: " Which of the following functions returns a string that contains the value of an operating system environment variable?",
+      answer: "Environ()",
+      options: [
+        "Env()",
+        "Environment()",
+        "Environ()",
+      ]
+    },
+    {
+      numb: 39,
+        question: "What do we call an attack which overwhelms a system’s resources so that it cannot respond to service requests?",
+        answer: "Denial of service attack",
+        options: [
+          "Brute Force",
+          "Eavesdropping",
+          "Denial of service attack",
+          "ALL OF THE ABOVE"
+        ]
+      },
+      {
+        numb: 40,
+          question: "What is the full form of SWIFT?",
+          answer: "Society for Worldwide Interbank Financial Telecommunications",
+          options: [
+            "System for Worldwide Interbank Financial Transactions",
+            "System of Wide Interchange of Financial Transactions",
+            "Society for Worldwide Interbank Financial Telecommunications",
+            "NONE"
+          ]
+        },
+
+
 
   
 
