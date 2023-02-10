@@ -90,8 +90,8 @@ next_btn.onclick = ()=>{
 
 // getting questions and options from array
 function showQuetions(index){
-    const que_text = document.querySelector(".que_text");
-    //const que_text = questions[Math.floor(Math.random()*questions.length)]
+    //const que_text = document.querySelector(".que_text");
+    const que_text = questions[Math.floor(Math.random()*questions.length)]
         
     //creating a new span and div tag for question and option and passing the value using array index
     let que_tag = '<span>'+ questions[index].numb + ". " + questions[index].question +'</span>';
