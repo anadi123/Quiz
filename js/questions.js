@@ -409,40 +409,36 @@ let questions = [
   },
   {
     numb: 38,
-      question: " Which of the following functions returns a string that contains the value of an operating system environment variable?",
-      answer: "Environ()",
-      options: [
-        "Env()",
-        "Environment()",
-        "Environ()",
-      ]
-    },
-    {
-      numb: 39,
-        question: "What do we call an attack which overwhelms a system’s resources so that it cannot respond to service requests?",
-        answer: "Denial of service attack",
-        options: [
-          "Brute Force",
-          "Eavesdropping",
-          "Denial of service attack",
-          "ALL OF THE ABOVE"
-        ]
-      },
-      {
-        numb: 40,
-          question: "What is the full form of SWIFT?",
-          answer: "Society for Worldwide Interbank Financial Telecommunications",
-          options: [
-            "System for Worldwide Interbank Financial Transactions",
-            "System of Wide Interchange of Financial Transactions",
-            "Society for Worldwide Interbank Financial Telecommunications",
-            "NONE"
-          ]
-        },
-
-
-
-  
+    question: " Which of the following functions returns a string that contains the value of an operating system environment variable?",
+    answer: "Environ()",
+    options: [
+      "Env()",
+      "Environment()",
+      "Environ()",
+    ]
+  },
+  {
+    numb: 39,
+    question: "What do we call an attack which overwhelms a system’s resources so that it cannot respond to service requests?",
+    answer: "Denial of service attack",
+    options: [
+      "Brute Force",
+      "Eavesdropping",
+      "Denial of service attack",
+      "ALL OF THE ABOVE"
+    ]
+  },
+  {
+    numb: 40,
+    question: "What is the full form of SWIFT?",
+    answer: "Society for Worldwide Interbank Financial Telecommunications",
+    options: [
+      "System for Worldwide Interbank Financial Transactions",
+      "System of Wide Interchange of Financial Transactions",
+      "Society for Worldwide Interbank Financial Telecommunications",
+      "NONE"
+    ]
+  },  
 
   // you can uncomment the below codes and make duplicate as more as you want to add question
   // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
