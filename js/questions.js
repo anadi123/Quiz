@@ -397,14 +397,14 @@ let questions = [
     ]
   },
   {
-    numb: 37,
+  numb: 37,
     question: "Which of the following represents Latency?",
-    answer: "propagation time +transmission time +queuing time + processing delay",
-    options: [
-      "propagation time +transmission time +queuing time + processing delay",
-      "propagation time – transmission time +queuing time + processing delay",
-      "propagation time +transmission time +queuing time – processing delay",
-      "(propagation time +transmission time) – (queuing time + processing delay)"
+    answer:"propagation time +transmission time +queuing time + processing delay",
+    options: [ 
+    "propagation time +transmission time +queuing time + processing delay",
+    "propagation time – transmission time +queuing time + processing delay",
+    "propagation time +transmission time +queuing time – processing delay",
+    "(propagation time +transmission time) – (queuing time + processing delay)"
     ]
   },
   {
@@ -438,8 +438,7 @@ let questions = [
       "Society for Worldwide Interbank Financial Telecommunications",
       "NONE"
     ]
-  },
-  
+  },  
 
   // you can uncomment the below codes and make duplicate as more as you want to add question
   // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
