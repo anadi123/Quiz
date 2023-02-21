@@ -26,3 +26,5 @@ Result of user responses are presented in a single screen at the conclusion of t
 
 ![Screenshot from 2023-02-21 19-13-01](https://user-images.githubusercontent.com/16815532/220362349-1aad1c43-7724-4b84-a133-3ba57f85d04a.png)
 ![Screenshot from 2023-02-21 19-13-45](https://user-images.githubusercontent.com/16815532/220362368-6a09fbb2-6ac2-403f-bdd8-86601b57874f.png)
+![Screenshot from 2023-02-21 23-20-34](https://user-images.githubusercontent.com/16815532/220422039-73d6ea20-c103-439c-b822-6bf8ae82f7b1.png)
+![Screenshot from 2023-02-21 23-20-52](https://user-images.githubusercontent.com/16815532/220422071-28c1b029-00f3-4f35-81e9-9434dd7bb5d2.png)
